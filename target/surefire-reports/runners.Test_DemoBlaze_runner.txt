@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runners.Test_DemoBlaze_runner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.13 s <<< FAILURE! -- in runners.Test_DemoBlaze_runner
+runners.Test_DemoBlaze_runner.runScenario["Sign up with valid credentials", "Sign up"](6) -- Time elapsed: 5.303 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepdefinitions.Signup.user_should_successfully_signup_and_should_be_display(Signup.java:52)
+	at ✽.User should successfully signup and "Sign up successful." should be display(file:///C:/Users/Jagadish%20Moharana/OneDrive/Desktop/masai%20courses/cucumber/DemoBlaze_Cucumber_project/src/test/resources/features/Signup.feature:8)
+
